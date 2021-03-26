@@ -1,0 +1,119 @@
+/* #*/ export const PERSON = `
+name:
+  first: Marcelo
+  middle:
+  last: Andrade R.
+about: I'm a software engineer with 16 years of experience. I've successfully executed projects for
+  clients in different industries like telecommunications, banking, healthcare, legal services, transportation and consumer apps.
+position: Senior Software Engineer
+
+birth:
+  year: 1980
+  location: Quito - Ecuador - South America
+
+experience:
+- company: Smith & Carson
+  position: Software Engineer
+  timeperiod: since 2017
+  description: Full stack development of Ember.js apps with Phalcon Framework as API backend.
+    Helped migrate legacy apps written in codeigniter and ASP to the current stack.
+    Also colaborated to modernize the backend to have better acceptance tests using Codeception.
+    Proposed and implemented the adoption of docker early so new employees can start the API with one command.
+    Helped migrate away from the in house data center to AWS using ECS, S3, EC2.
+  website: https://www.smithcarson.com/
+
+- company: Toptal
+  position: Frelance Software Engineer
+  timeperiod: 2015 - 2017
+  description: Worked with clients as full stack developer,
+    improving their software development practice
+    with the inclusion of best practices like
+    Test Driven Development, Code Reviews,
+    Continuos Integration, Continuos Deployment.
+  website: https://www.toptal.com/
+
+- company: Business World Logistics
+  position: Software Architect
+  timeperiod: 2015 - 2019
+  description: Help the company to avoid duplicate
+    payments to carriers
+    through the implementation of a system to bill clients the
+    freights delivered and to pay carriers for their
+    services in a secure and trusted process.
+
+- company: Jobsity
+  position: Software Engineer
+  timeperiod: 2009 - 2015
+  description: Led different teams to deliver multiple
+    projects for clients in
+    industries like healthcare, pharmacies,
+    food delivery, etc.
+
+education:
+- degree: Systems Engineer
+  timeperiod: 1998 - 2003
+  description: Computer Science degree from Escuela Politecnica del Ejercito in Ecuador.
+
+# skill level goes 0 to 100
+skills:
+- name: JavaScript
+  level: 95
+- name: Ember.js
+  level: 95
+- name: HTML5
+  level: 95
+- name: CSS3
+  level: 85
+- name: PHP
+  level: 95
+- name: Ruby
+  level: 80
+- name: Docker
+  level: 90
+- name: Git
+  level: 90
+- name: AWS
+  level: 40
+knowledge: También hablo español
+
+projects:
+- name: TaskMatters, JurorSmarts from Smith & Carson
+  description: Apps to help conduct investigations and research for cases.
+  url: https://www.smithcarson.com
+- name: Fibroblast
+  description: Patient referral application that helps direct patients to the best specialist.
+  url: https://fibroblast.com
+- name: PinpointCare
+  description: Is a secure, cloud-based platform that connects all of a patient’s care providers. The care coordination solution connects patients to their providers anywhere and at anytime through workflow and communication tools.
+  url: https://pinpointmd.com
+- name: Telepharm
+  description: System that works with rural communities to put a local pharmacy in towns that lack one.
+  url: https://www.telepharm.com
+
+hobbies:
+- name: Travel
+  iconClass: fa fa-car
+- name: Bake
+  iconClass: fa fa-birthday-cake
+- name: Pet
+  iconClass: fa fa-paw
+
+contributions:
+- name: ember-simplemde
+  description: A wrapper around the SimpleMDE editor for use in Ember projects
+  url: https://github.com/smith-carson/ember-simplemde
+- name: ember-ckeditor
+  description: Exposes CKEditor via friendly Ember Components
+  url: https://github.com/smith-carson/ember-ckeditor
+
+contact:
+  email: marcelo.andrade.r@gmail.com
+  phone: +593 999 44 33 60
+  street: Manuela Saenz
+  city: Quito, Ecuador
+  website: https://marceloandrader.github.io/
+  github: marceloandrader
+  twitter: MarceloAndrade
+
+lang: en
+`
